@@ -67,15 +67,20 @@ body {
       margin-right: 5px;
     }
   }
+}
 
-  #skills
+ #skills
   {
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     
     .progressBar {
       height: 1.5rem;
       position: relative;
+      margin: 5px 0;
       h3 {
+        margin-left: 5px;
         z-index: 2;
         position: absolute;
         color: $color-watermelon;
@@ -95,14 +100,35 @@ body {
           width: 80%;
           float: left;
           background: $color-neutral;
+
+          &.value-90 {
+            width: 90%;
+          }
+          &.value-85 {
+            width: 85%;
+          }
+          &.value-80 {
+            width: 80%;
+          }
+          &.value-75 {
+            width: 75%;
+          }
+          &.value-70 {
+            width: 70%;
+          }
+          &.value-60 {
+            width: 60%;
+          }
+          &.value-40 {
+            width: 40%;
+          }
+
         }
 
       }
 
     }
-
   }
-}
 
 #content {
   
