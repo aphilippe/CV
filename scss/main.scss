@@ -13,8 +13,9 @@ $color-text: #545454;
 
 html,
 body {
-  height:297mm; 
-  width:210mm;
+  // height:297mm; 
+  // width:210mm;
+  height: 100%;
   margin-left:auto;
   margin-right:auto;
   padding: 0;
@@ -163,7 +164,7 @@ body {
     
     ul {
       li {
-         padding: 5px 0;
+         margin: 5px 0;
          margin-left: 2em;
       }
     }
@@ -177,6 +178,25 @@ body {
       // list-style-type: none;
       margin-left: 2em;
       padding: 5px 0;
+    }
+  }
+}
+
+.lang {
+  display: flex;
+  margin: 10px 5px;
+
+  h3 {
+    flex: 1;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  ul{
+    flex: 3;
+
+    li {
+      list-style-type: none;
     }
   }
 }
